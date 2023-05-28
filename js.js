@@ -18,10 +18,3 @@ function mostrarMensagem() {
         document.getElementById("mensagem").innerHTML = "Seja bem-vindo(a), " + nome + "!";
     }
 }
-function mostrarname() {
-    var nome = document.getElementById("nome").value;
-    if (nome !== "") {
-
-        document.getElementById("mensagem").innerHTML = nome +".";
-    }
-}
