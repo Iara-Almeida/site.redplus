@@ -30,8 +30,8 @@ header {
     position: relative; 
 }
 p{
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
 }
 nav {
     display: flex;
@@ -142,8 +142,37 @@ select {
 }
 .corpo{
     margin-top: 85px; 
+    background-color: #f1f1f1;
 }
 
 /*estilo da area do aluno*/
 
+.align-items {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 9%; 
+  }
+  .align-items__text {
+    margin-left: 3px; /* ajuste conforme necessário */
+    font-size:30px;
+  }
+  .container-md{
+    background-color:white;
+    border-color: black;
+    margin-top: 10px;
+    font-size: larger;
+    color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0%;
+    position: relative;  
+  }
+  button{
+    justify-content: end;
+  }
+   
+  
 
